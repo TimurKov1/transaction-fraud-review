@@ -1,0 +1,13 @@
+model,scenario,fraud,detected,recall
+Amount rule,1,192,192,1.0
+Amount rule,2,2074,21,0.010125361620057859
+Amount rule,3,999,605,0.6056056056056056
+Logistic + history,1,192,192,1.0
+Logistic + history,2,2074,20,0.009643201542912247
+Logistic + history,3,999,674,0.6746746746746747
+CatBoost current,1,192,192,1.0
+CatBoost current,2,2074,20,0.009643201542912247
+CatBoost current,3,999,598,0.5985985985985987
+CatBoost + history,1,192,192,1.0
+CatBoost + history,2,2074,15,0.007232401157184185
+CatBoost + history,3,999,753,0.7537537537537538
